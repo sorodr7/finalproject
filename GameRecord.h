@@ -10,7 +10,7 @@ struct GameRecord {
     std::string year;
     std::string genre;
     std::string publisher;
-    std::string globalSales;
+    float globalSales = 0.0f;
 };
 
 #endif
