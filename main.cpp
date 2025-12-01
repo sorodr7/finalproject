@@ -62,7 +62,7 @@ std::sort(gameList.begin(), gameList.end(),
 
 // output top 10 game sales
 
-std::cout << "\n===== TOP 10 GAMES (by global sales) =====\n";
+std::cout << "\n----- TOP 10 GAMES (by global sales) -----\n";
 
 for (int i= 0; i < 10 && i < gameList.size(); i++) {
     std::cout << i+1 << ". "
@@ -85,7 +85,7 @@ std::sort(genreList.begin(), genreList.end(),
 
 // output top 5 genres
 
-std::cout << "\n===== TOP 5 GENRES (by global sales) =====\n";
+std::cout << "\n----- TOP 5 GENRES (by global sales) -----\n";
 
 for (int i = 0; i < 5 && i < genreList.size(); i++) {
     std::cout << i+1 << ". "
